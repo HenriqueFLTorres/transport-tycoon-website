@@ -11,13 +11,13 @@ const CartDropDown = (props: Props) => {
   return (
     <div className="flex justify-center">
       <Cart
-        className={`fill-neutral-100 w-12 h-12 p-2 rounded-md border-[1px] hover:bg-neutral-100/20 cursor-pointer transition-all duration-150 ${cartVisible ? "bg-neutral-700/20 border-neutral-700 hover:bg-neutral-700/20 fill-neutral-800 drop-shadow-[0_0_4px_rgb(64,64,64)]" : "border-transparent"}`}
+        className={`fill-neutral-100 w-12 h-12 p-2 rounded-md border-[1px] hover:bg-neutral-900/50 cursor-pointer transition-all duration-150 ${cartVisible ? "bg-neutral-100/20 border-neutral-100 fill-neutral-100 drop-shadow-[0_0_1px_rgba(255,255,255,0.4)]" : "border-transparent"}`}
         onClick={() => setCartVisible(!cartVisible)}
       />
       <div
-        className={`absolute flex flex-col bg-gradient-to-br from-neutral-800/70 to-neutral-700/90 rounded-md divide-y divide-neutral-500 border-t-2 p-2 border-neutral-700 text-neutral-200 translate-y-14 ${
+        className={`absolute flex flex-col bg-gradient-to-br from-[#272727f0] to-[#1a1a1ad3] rounded-md divide-y divide-neutral-900/95 border-t-2 p-2 border-neutral-900 text-neutral-200 translate-y-14 ${
           cartVisible ? "clip-path-inset" : "clip-hide-top"
-        } transition-all duration-300 shadow-md`}
+        } transition-all duration-300 shadow-[0_0_5px_rgb(255,255,255)] backdrop-blur`}
       >
         <div>
           <div className="flex flex-row gap-10 items-center rounded p-2">
