@@ -6,7 +6,6 @@ export default function Index() {
   return (
     <div className="bg-tycoon bg-cover min-h-screen">
       <Navbar/>
-      asdf<br/>asdfasdfasd<br/>basdfasdf
     </div>
   );
 }
