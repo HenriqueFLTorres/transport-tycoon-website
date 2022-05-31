@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#000" fill-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM15 10C15 11.6569 13.6569 13 12 13C10.3431 13 9 11.6569 9 10C9 8.34315 10.3431 7 12 7C13.6569 7 15 8.34315 15 10ZM5.99927 17C7.36758 15.1783 9.54609 14 11.9998 14C14.4535 14 16.6321 15.1783 18.0004 17C16.6321 18.8217 14.4535 20 11.9998 20C9.54609 20 7.36758 18.8217 5.99927 17Z" clip-rule="evenodd"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<path class="st0" d="M12,24c6.6,0,12-5.4,12-12c0-6.6-5.4-12-12-12C5.4,0,0,5.4,0,12C0,18.6,5.4,24,12,24z M15.6,9.6
+	c0,2-1.6,3.6-3.6,3.6s-3.6-1.6-3.6-3.6C8.4,7.6,10,6,12,6S15.6,7.6,15.6,9.6z M4.8,18c1.6-2.2,4.3-3.6,7.2-3.6
+	c2.9,0,5.6,1.4,7.2,3.6c-1.6,2.2-4.3,3.6-7.2,3.6C9.1,21.6,6.4,20.2,4.8,18z"/>
+</svg>

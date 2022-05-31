@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .clip-path-inset {
+        clip-path: inset(0);
+    }
+
+    .clip-hide-top {
+        clip-path: inset(0 0 100% 0);
+    }
+}

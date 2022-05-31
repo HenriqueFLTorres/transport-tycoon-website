@@ -7,7 +7,7 @@ module.exports = {
         dark: "#1d1d1d",
       },
       backgroundImage: {
-        "glass": "linear-gradient(155deg, #ffffffb3, #ffffff4d)"
+        "glass": "linear-gradient(155deg, #A1BEDAb3, #ffffff4d)"
       }
     },
   },
