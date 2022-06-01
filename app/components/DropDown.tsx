@@ -13,7 +13,7 @@ const DropDown = ({ children }: any) => {
   };
 
   return (
-    <ul className="absolute flex flex-col p-1 bg-gradient-to-br from-[#272727f0] to-[#1a1a1ad3] rounded-md divide-y divide-neutral-900 border-t-2 border-neutral-900 clip-hide-top -translate-x-5 translate-y-1 group-hover:clip-path-inset transition-all duration-300 shadow-md backdrop-blur">
+    <ul className="absolute flex flex-col p-1 bg-gradient-to-br from-[#272727f0] to-[#1a1a1ad3] rounded-md divide-y divide-neutral-900 border-t-2 border-neutral-900 clip-hide-top -translate-x-5 translate-y-1 group-hover:clip-path-inset transition-all duration-300 shadow-md backdrop-blur z-50">
       {React.Children.map(
         children,
         (item: React.ReactFragment, index: React.Key): any => {

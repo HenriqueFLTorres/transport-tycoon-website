@@ -9,7 +9,7 @@ const CartDropDown = (props: Props) => {
   const [cartVisible, setCartVisible] = useState(false);
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center z-50">
       <Cart
         className={`fill-neutral-100 w-12 h-12 p-2 rounded-md border-[1px] hover:bg-neutral-900/50 cursor-pointer transition-all duration-150 ${cartVisible ? "bg-neutral-100/20 border-neutral-100 fill-neutral-100 drop-shadow-[0_0_1px_rgba(255,255,255,0.4)]" : "border-transparent"}`}
         onClick={() => setCartVisible(!cartVisible)}
