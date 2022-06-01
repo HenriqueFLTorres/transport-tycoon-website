@@ -9,9 +9,6 @@ module.exports = {
         tycoon: "#72A5D9",
         dark: "#1d1d1d",
       },
-      backgroundImage: {
-        "glass": "linear-gradient(155deg, #A1BEDAb3, #ffffff4d)"
-      }
     },
   },
   plugins: [],

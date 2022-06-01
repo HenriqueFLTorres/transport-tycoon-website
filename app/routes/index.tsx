@@ -31,7 +31,7 @@ export default function Index() {
                 For more information about Transport Tycoon and Tycoon Gaming,
                 check out the About page.
               </p>
-              <hr className="border border-white/40"/>
+              <hr className="border border-white/10 mb-2 mt-6"/>
               <p>
                 Make sure you've properly created an account and linked it to
                 the Transport Tycoon servers before proceeding.

@@ -8,8 +8,8 @@ type Props = {};
 
 const SideBar = (props: Props) => {
   return (
-    <div className="flex flex-col items-center bg-gradient-to-br fill-neutral-100 text-neutral-100 font-normal w-96 py-16 my-10 mr-10">
-      <div className="mb-12">
+    <div className="flex flex-col items-center bg-gradient-to-br fill-neutral-100 text-neutral-100 font-normal w-96 py-10 my-10 mr-10">
+      <div className="mb-16">
         <div className="flex items-center mb-8">
           <Crown className="h-8 w-8 mr-4" />
           <p className="font-bold text-3xl">Tycoon of the Day</p>
@@ -25,7 +25,7 @@ const SideBar = (props: Props) => {
         </div>
       </div>
 
-      <div className="mb-12">
+      <div className="mb-16">
         <div className="flex items-center mb-8">
           <Wrench className="h-8 w-8 mr-4" />
           <p className="font-bold text-3xl">Cover upkeep fees</p>
