@@ -13,7 +13,7 @@ const DropDown = ({ children }: any) => {
   };
 
   return (
-    <ul className="absolute flex flex-col p-1 bg-gradient-to-br from-[#272727f0] to-[#1a1a1ad3] rounded-md divide-y divide-neutral-900 border-t-2 border-neutral-900 clip-hide-top -translate-x-5 translate-y-1 group-hover:clip-path-inset transition-all duration-300 shadow-md backdrop-blur z-50">
+    <ul className="absolute flex flex-col p-1 bg-gradient-to-br from-neutral-200/80 to-neutral-100/90 rounded-md divide-y divide-neutral-300 border-t-2 border-neutral-300 clip-hide-top -translate-x-5 translate-y-1 group-hover:clip-path-inset transition-all duration-300 shadow-md backdrop-blur z-50">
       {React.Children.map(
         children,
         (item: React.ReactFragment, index: React.Key): any => {
@@ -24,7 +24,7 @@ const DropDown = ({ children }: any) => {
             <Link to={`category/${redirect}`}>
               <li
                 key={index}
-                className={`p-3 cursor-pointer hover:bg-neutral-900/50 font-normal text-neutral-400 hover:text-neutral-200 text-center ${itemPositionBorderRadius(
+                className={`p-3 cursor-pointer hover:bg-neutral-100/80 font-normal text-neutral-700 hover:text-neutral-900 text-center ${itemPositionBorderRadius(
                   index
                 )} transition-all duration-200`}
               >
